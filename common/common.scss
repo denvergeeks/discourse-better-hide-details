@@ -1,0 +1,71 @@
+.d-editor-preview details,
+.user-stream-item details,
+.topic-body details {
+    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
+}
+
+.d-editor-preview details summary,
+.topic-body details summary {
+    padding: 0.75em;
+    text-indent: -1.5em;
+    padding-left: 2.25em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.user-stream-item details[open] summary {
+    margin-bottom: 0.75em;
+}
+
+.user-stream-item details {
+    padding: 0.75em;
+}
+
+.d-editor-preview details>*,
+.topic-body details>* {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+/* This is trying to fix weird margin behaviour of the last child in the details. */
+.d-editor-preview details[open],
+.topic-body details[open] {
+    padding-bottom: 0.001em;
+}
+
+.d-editor-preview details~details,
+.topic-body details~details {
+    margin-top: 0.75em;
+}
+
+.d-editor-preview details summary::before,
+.topic-body details summary::before {
+    color: var(--tertiary);
+}
+    
+.d-editor-preview details summary:focus,
+.topic-body details summary:focus {
+    background: color-mix(in srgb, var(--tertiary) 16%, transparent);  
+}
+
+.d-editor-preview details summary:active,
+.d-editor-preview details summary:hover,
+.topic-body details summary:active,
+.topic-body details summary:hover {
+    background: color-mix(in srgb, var(--secondary) 32%, transparent);  
+}
+
+.d-editor-preview details details:nth-child(2),
+.topic-body details details:nth-child(2) {
+    margin-top: 0.75em;
+}
+
+.d-editor-preview details details:last-child,
+.topic-body details details:last-child {
+    margin-bottom: 0.75em;
+}
+
+.d-editor-preview details[open]>summary,
+.topic-body details[open]>summary {
+    border-bottom: 0.25em solid var(--secondary);
+}
