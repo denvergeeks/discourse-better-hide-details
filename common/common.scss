@@ -44,14 +44,14 @@
 }
     
 .d-editor-preview details summary:focus,
-.topic-body details summary:focus {
+.d-editor-preview details summary:hover,
+.topic-body details summary:focus,
+.topic-body details summary:hover {
     background: color-mix(in srgb, var(--tertiary) 16%, transparent);  
 }
 
 .d-editor-preview details summary:active,
-.d-editor-preview details summary:hover,
-.topic-body details summary:active,
-.topic-body details summary:hover {
+.topic-body details summary:active {
     background: color-mix(in srgb, var(--secondary) 32%, transparent);  
 }
 
