@@ -1,7 +1,7 @@
 .d-editor-preview details,
 .user-stream-item details,
 .topic-body details {
-    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
+    background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
 
 /*
@@ -51,12 +51,12 @@
 .d-editor-preview details summary:hover,
 .topic-body details summary:focus,
 .topic-body details summary:hover {
-   /* background: color-mix(in srgb, var(--tertiary) 16%, transparent);  */
+   /* background: color-mix(in srgb, var(--tertiary) 8%, transparent);  */
 }
 
 .d-editor-preview details summary:active,
 .topic-body details summary:active {
-    /* background: color-mix(in srgb, var(--tertiary) 16%, transparent);  */
+    /* background: color-mix(in srgb, var(--tertiary) 8%, transparent);  */
 }
 
 .d-editor-preview details details:nth-child(2),
@@ -84,7 +84,7 @@ details.details__boxed:not([open]):hover,
 details.details__boxed:not([open]):focus,
 details.details__boxed:not([open]):focus-within {
     background-color: var(--d-hover);
-    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
+    background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
 
 
@@ -95,5 +95,5 @@ details.details__boxed {
     background-color: var(--primary-very-low);
     padding: .25rem .75rem;
     margin-bottom: .5rem;
-    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
+    background: color-mix(in srgb, var(--tertiary) 8%, transparent);
 }
