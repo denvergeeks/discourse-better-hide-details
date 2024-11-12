@@ -74,16 +74,26 @@
     border-bottom: 0.25em solid var(--secondary);
 }
 
-.topic-body .cooked details:not([open]):hover, .topic-body .cooked details:not([open]):focus, .topic-body .cooked details:not([open]):focus-within, details .d-editor-preview:not([open]):hover, details .d-editor-preview:not([open]):focus, details .d-editor-preview:not([open]):focus-within, details.details__boxed:not([open]):hover, details.details__boxed:not([open]):focus, details.details__boxed:not([open]):focus-within {
+.topic-body .cooked details:not([open]):hover,
+.topic-body .cooked details:not([open]):focus,
+.topic-body .cooked details:not([open]):focus-within,
+details .d-editor-preview:not([open]):hover,
+details .d-editor-preview:not([open]):focus,
+details .d-editor-preview:not([open]):focus-within,
+details.details__boxed:not([open]):hover,
+details.details__boxed:not([open]):focus,
+details.details__boxed:not([open]):focus-within {
     background-color: var(--d-hover);
-    background: 
-color-mix(in srgb, var(--tertiary) 16%, transparent);
+    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
 }
 
-.topic-body .cooked details, details .d-editor-preview, details.details__boxed {
+
+
+.topic-body .cooked details,
+details .d-editor-preview,
+details.details__boxed {
     background-color: var(--primary-very-low);
     padding: .25rem .75rem;
     margin-bottom: .5rem;
-    background: 
-color-mix(in srgb, var(--tertiary) 16%, transparent);
+    background: color-mix(in srgb, var(--tertiary) 16%, transparent);
 }
